@@ -5,6 +5,7 @@
         Jason Smallwood
         jason@motifworks.com
         www.linkedin.com/in/jasonlsmallwood
+        https://github.com/jsmallwood/az-vwan-meraki-integration
     .DESCRIPTION
         The script will create an Azure Virtual WAN with Hubs for each Meraki Appliance in an Organization.
         Currently the script has only been tested with Meraki's in Passthrough or VPN Concentrator Mode.
