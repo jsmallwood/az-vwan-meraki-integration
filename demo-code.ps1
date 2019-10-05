@@ -588,7 +588,6 @@ Function Get-MerakiThirdPartyVPNPeers {
                             privateSubnets = @("$($vpnConfigData.vpnSiteConnections.hubConfiguration.AddressSpace)", "$($vpnConfigData.vpnSiteConnections.hubConfiguration.ConnectedSubnets)")
                             ipsecPoliciesPreset = "azure"
                             secret = "$($vpnConfigData.VpnSiteConnections.connectionConfiguration.PSK)"
-                            networkTags = @('All')
                             },
                             @{
                             name = "Azure vWAN Gateway 2"
@@ -596,7 +595,6 @@ Function Get-MerakiThirdPartyVPNPeers {
                             privateSubnets = @("$($vpnConfigData.vpnSiteConnections.hubConfiguration.AddressSpace)", "$($vpnConfigData.vpnSiteConnections.hubConfiguration.ConnectedSubnets)")
                             ipsecPoliciesPreset = "azure"
                             secret = "$($vpnConfigData.VpnSiteConnections.connectionConfiguration.PSK)"
-                            networkTags = @('All')
                             }
                         )
                     }
